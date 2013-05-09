@@ -1,0 +1,65 @@
+body{
+	width: 100%
+	padding-top: 15px;
+}
+#wrapper{
+	width:960px;
+	background-color:#c8f1e8;
+
+}
+nav{
+	width:100%;
+	height:150px;
+	background-color:#ccc;
+}
+#logo a{
+	background-image: url('../img/zglogo.jpg');
+	float:left;
+	width:150px;
+	height:124px;
+	margin-top:10px;
+	margin-left: 50px;
+	clear:none;
+	z-index: 2;
+}
+/* Navigation Styles */
+
+.nav{
+	margin-right: 25px;
+}
+.nav li{
+	background-color:#eee;
+	list-style-type: none;/*Will remove the bullett points*/
+	display: inline; /*Links will display in line*/
+	z-index: 1; /*priority display first*/
+	font-family: "Gills Sans";
+	margin-top:50px;
+	padding-right:15px;
+	font-size: 34px;
+	float:right;
+}
+a{
+	text-decoration: none;
+	font-family:"Gill Sans";
+	color:#9d765d;
+
+}
+
+/*Footer Style*/
+.footer{
+	width:100%;
+	background-color:#eee;
+	float:left;
+	clear:right;
+	z-index:1;
+}
+.footer li{
+	list-style:none;
+	display:inline;
+	z-index:2;
+	font-family:Arial;
+	font-size:12px;
+	margin-right:10px;
+}
+
+
