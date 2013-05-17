@@ -84,6 +84,36 @@
 	box-shadow: inset -5px -5px 3px 3px rgba(200, 241, 232, 1);
 
 }
+#view-more-index{
+	color:#c8f1e8;
+	float:right;
+	margin-right:22px;
+}
+
+article{
+	font-family:"Gill Sans MT";
+	font-color:#c8f1e8;
+	font-size:20px;
+	height:50%;
+	width:50%;
+	margin-left:50px;
+	margin-top:20px;
+
+}
+header{
+	font-size:36px;
+	color:#ffffff;
+	font-family:"Gill Sans MT";
+	margin-top:20px;
+	margin-left:50px;
+
+
+}
+article .placeholder{
+	height:200px;
+	width:200px;
+
+}
 
 
 
