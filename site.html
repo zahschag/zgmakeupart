@@ -46,22 +46,12 @@
 <!--Newsletter section begins-->
 	<div id="newsletter">
 		<h1>Newsletter</h1>
-		<?php echo form_open('email/send'); ?>
-		<?php
-	
-	$name_data = array(
-		'name' => 'name',
-		'id' => 'name',
-		'value' => set_value('name')
-	);
-	
-	?>
-			<input type="text" name="email" id="email" value="<?php echo set_value('email');?>">
-			<?php echo form_submit('submit','Submit');?>
-			<?php echo form_close();?>
+		<form>
+			<input type="text" name="email"></input>
+			<button type="submit" name='button' value="Submit"></button>
 
-			<?php echo validation_errors('<p class="error">');?>
-		?>
+
+		</form>
 	</div>
 <!-- Newsletter section Ends-->
 </div>
