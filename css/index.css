@@ -34,11 +34,17 @@
 	box-shadow: 2px 2px 10px black;
 	clear:none;
 }
-#about #newsletter h1{
+#about h1{
 	color:#fff;
 	margin-left:20px;
 	font-family:Arial;
 
+}
+#about p{
+	font-family: "Gill Sans MT";
+	color:#654c3c;
+	width:300px;
+	margin-left: 20px;
 }
 #newsletter{
 	float:right;
@@ -56,8 +62,16 @@
 	clear:none;
 }
 #newsletter h1{
+	color:#fff;
 	margin-left:20px;
 	font-family:Arial;
+
+}
+#newsletter input{
+
+-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius: 10px;
 
 }
 
