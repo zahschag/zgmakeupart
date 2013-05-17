@@ -1,0 +1,167 @@
+/**
+ * All your custom CSS should go into this file
+ */
+ /*Blues*/
+.primary-1 { background-color: #00C7FF }
+.primary-3 { background-color: #005E79 }
+
+ /*Purples*/
+.secondary-a-1 { background-color: #9800FF }
+.secondary-a-2 { background-color: #773C9F }
+
+ /*Greens*/
+.secondary-b-1 { background-color: #D3FF00 }
+
+
+
+body {
+   padding-top: 15px;
+}
+
+/*b*/
+.signup-cont-bg{
+	max-width:100%;
+	background: url('../img/signupbg.jpg'), repeat;
+	padding-bottom:10%;
+	
+}
+.in-style{
+	width:40%;
+	background: #773C9F;
+	margin-top:5%;
+	margin-left: 20%;
+	padding-left:2%;
+	padding-bottom:2%;
+	border: 2px solid #FFF;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-box-shadow: 0px 3px 11px #773C9F
+		inset 1px 1px 4px #CCCCCC;
+}
+input.coststyle{
+	display: inline-block;
+	height: 25px;
+	padding: 4px 8px;
+	margin-left: 15%;
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #666666;
+	vertical-align: middle;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	}
+	
+legend.stylecolor, label.stylecolor{
+	color:#FFF;
+	font-size:20px;
+	margin-left:15%;
+	}
+legend.stylecolor{
+	color: #00C7FF ;
+	font-size:48px;
+	margin-left:5px;
+	padding-left:30%;
+	padding-bottom: 8%;
+	border-bottom-color: #00C7FF ;
+	border-bottom-style:groove;
+	}
+	
+
+#btn{
+	font-family: Arial Black, Helvetica, sans-serif;
+	font-size: 2em;
+	color: #773C9F;
+	padding: 10px 30%;
+	background: -moz-linear-gradient(
+		top,
+		#d5ff00 0%,
+		#f0fcb6 25%,
+		#f4ffba 50%,
+		#f3ffb8 75%,
+		#d5ff00);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#d5ff00),
+		color-stop(0.25, #f0fcb6),
+		color-stop(0.50, #f4ffba),
+		color-stop(0.75, #f3ffb8),
+		to(#d5ff00));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 2px solid #b2d500;
+	-moz-box-shadow:
+		0px 3px 11px rgba(255,255,255,0.5),
+		inset 1px 1px 6px rgba(140,168,0,1);
+	-webkit-box-shadow:
+		0px 3px 11px rgba(255,255,255,0.5),
+		inset 1px 1px 6px rgba(140,168,0,1);
+	box-shadow:
+		0px 3px 11px rgba(255,255,255,0.5),
+		inset 1px 1px 6px rgba(140,168,0,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.2),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
+
+@media (min-width: 768px) and (max-width: 979px){
+	.btn{display: inherit; max-width: 30%;}
+	#frontart{margin-left:10%;}
+}
+@media (max-width: 480px){
+	.btn{display:none;}
+	#frontart{display:inherit;!important margin-right:30%;}
+	
+	}
+@media (min-width: 1200px) {
+	.btn{display:block; !important}
+	
+}
+#frontart{
+	max-width: 100%;
+	background-color: #D3FF00;
+	padding-left: 10%;
+	padding-bottom:10%;
+	padding-right: 20%;
+	margin-top:10%;
+	margin-left: 35%;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius:10px;
+	box-shadow: 0px 2px 4px rgba(102,102,102,1)
+				inset 1px 1px 4px rgba(51,51,51,1);
+	-moz-box-shadow: 0px 2px 4px rgba(102,102,102,1)
+					inset 1px 1px 4px rgba(51,51,51,1);
+	-webkit-box-shadow:0px 2px 4px rgba(102,102,102,1)
+					inset 1px 1px 4px rgba(51,51,51,1);
+				
+	}
+p{
+	padding-bottom:10px;
+	}
+#indJobContent{padding-top: 5px; margin-top:10px;}
+#indJobContent .company_location{font-size: 11px;overflow: hidden;display:block;}
+#indJobContent.wide .job{display:block;float:left;margin-right: 5px;width: 135px;overflow: hidden}
+#indeed_widget_wrapper{float:left;font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;font-size: 13px;font-weight: normal;line-height: 18px;padding: 10px;height: auto;overflow: hidden; margin-top: 20px; margin-left:50px;}
+#indeed_widget_header{font-size:18px; padding-bottom: 5px; }
+#indeed_search_wrapper{clear: both;font-size: 12px;margin-top: 0px;padding-top: 2px;}
+#indeed_search_wrapper label{font-size: 12px;line-height: inherit;text-align: left; margin-right: 5px;}
+#indeed_search_wrapper input[type='text']{width: 100px; font-size: 11px; }
+#indeed_search_wrapper #qc{float:left;}
+#indeed_search_wrapper #lc{float:right;}
+#indeed_search_wrapper.stacked #qc, #indeed_search_wrapper.stacked #lc{float: none; clear: both;}
+#indeed_search_wrapper.stacked input[type='text']{width: 150px;}
+#indeed_search_wrapper.stacked label{display: block;padding-bottom: 5px;}
+#indeed_search_footer{width:295px; padding-top: 5px; clear: both;}
+#indeed_link{position: absolute;bottom: 1px;right: 5px;clear: both;font-size: 11px; }
+#indeed_link a{text-decoration: none;}
+#results .job{padding: 1px 0px;}#pagination { clear: both; }</style><style type='text/css'>
+#indeed_widget_wrapper{ width: 300px; height: 600px; background: #FFF;}
+#indeed_widget_wrapper{ border: 1px solid #DDDDDD; }
+#indeed_widget_wrapper, #indeed_link a{ color: #00C7FF;}
+#indJobContent, #indeed_search_wrapper{ border-top: 1px solid #DDDDDD; }
+#indJobContent a { color: #FFFFFF; }
+#indeed_widget_header{ color: #00C7FF; }
