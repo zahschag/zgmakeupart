@@ -16,15 +16,16 @@ nav{
 	background-image: url('../img/zglogo.png');
 	background-repeat: no-repeat;
 	float:left;
-	width:170px;
-	height:144px;
+	width:180px;
+	height:150px;
 	margin-top:10px;
 	margin-left: 50px;
 	clear:none;
 	z-index: 2;
 }
 #decor{
-	
+	background-image:url('../img/decoration.png');
+	background-repeat: no-repeat;
 	float:right;
 	height:120px;
 	width:430px;

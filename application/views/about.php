@@ -1,5 +1,9 @@
 
-<div id="decor"><p>About Me</p></div>
+<div id="decor">
+
+	<p style="margin-bottom:70px;">About Me</p>
+
+</div>
 <div id="main">
 	<header>About Me</header>
 
