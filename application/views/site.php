@@ -21,8 +21,30 @@
 	<div id="newsletter">
 		<h1>Newsletter</h1>
 	
+<?php echo form_open('newsletter/save');?>
 
-		<form action="" method="post">
+<?php
+	$enterEmail = array(
+		'name' => 'email',
+		'for' => 'email',
+		'id' => 'email',
+		'style' => ('height:30px; width:250px; margin-left:50px;')
+		);
+?>
+<?php 
+
+	$submitButton = array(
+		'name' => 'submit',
+		'value' => "Subscribe",
+		'class' => 'sub-btn'
+	); ?>
+
+<?php echo form_input($enterEmail);?>
+<?php echo form_submit($submitButton);?>
+<?php echo form_close();?>
+
+
+		<!-- <form action="" method="post">
 			<label class="error" for="email" id="email_error" style="color=#fff;padding-top:20px; margin-left:10px">This field is required </label>
 			<input style ='height:30px; width:250px; margin-left:50px;'name="email", id="email", type="text" size="40" value=""/>
 			<input class="sub-btn"type="submit" name="submit" value="Signup"/>
@@ -60,7 +82,7 @@ $(function() {
   });
 });  
 </script>
-
+ -->
 
 	</div>
 <!-- Newsletter section Ends-->
