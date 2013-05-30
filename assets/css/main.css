@@ -1,0 +1,118 @@
+body{
+	width: 100%
+	padding-top: 15px;
+}
+#wrapper{
+	width:960px;
+	background-color:#c8f1e8;
+
+}
+nav{
+	width:100%;
+	height:150px;
+	/*background-color:#ccc;*/
+}
+#logo a{
+	background-image: url('../img/zglogo.png');
+	float:left;
+	width:150px;
+	height:124px;
+	margin-top:10px;
+	margin-left: 50px;
+	clear:none;
+	z-index: 2;
+}
+#decor{
+	background-image: url('../img/decoration.png');
+	float:right;
+	height:120px;
+	width:430px;
+	margin-top:10px;
+	margin-right:50px;
+	float:right;
+	z-index:1;
+}
+#decor p{
+	color:#9d765d;
+	font-family: "Edwardian Script ITC";
+	float:right;
+	font-size:60px;
+	margin-right:150px;
+	margin-bottom:50px;
+	padding-bottom: 50px;
+	
+}
+/* Navigation Styles */
+
+.nav{
+	margin-right: 25px;
+}
+.nav li{
+	/*background-color:#eee;*/
+	list-style-type: none;/*Will remove the bullett points*/
+	display: inline; /*Links will display in line*/
+	z-index: 1; /*priority display first*/
+	font-family: "Gills Sans";
+	margin-top:50px;
+	padding-right:15px;
+	font-size: 34px;
+	float:right;
+}
+a{
+	text-decoration: none;
+	font-family:"Gill Sans";
+	color:#9d765d;
+
+}
+
+/*Footer Style*/
+.footer{
+	width:100%;
+	/*background-color:#eee;*/
+	float:left;
+	clear:right;
+	z-index:1;
+}
+.footer li{
+	list-style:none;
+	display:inline;
+	z-index:2;
+	font-family:Arial;
+	font-size:12px;
+	margin-right:10px;
+}
+
+/*Other Styles*/
+
+#view-more, #view-more-index, .sub-btn{
+color:white;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius: 5px;
+	border:#9d765d;
+	border-width: 3px;
+	border-style:solid;
+	background: #9d765d;
+	background: -moz-linear-gradient(top, #9d765d 0%, #d0a082 75%, #9d765d 99%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9d765d), color-stop(75%,#d0a082), color-stop(99%,#9d765d));
+	background: -webkit-linear-gradient(top, #9d765d 0%,#d0a082 75%,#9d765d 99%);
+	background: -o-linear-gradient(top, #9d765d 0%,#d0a082 75%,#9d765d 99%);
+	background: -ms-linear-gradient(top, #9d765d 0%,#d0a082 75%,#9d765d 99%);
+	background: linear-gradient(to bottom, #9d765d 0%,#d0a082 75%,#9d765d 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d765d', endColorstr='#9d765d',GradientType=0 );
+
+}
+.sub-btn{
+	height:40px;
+	width:130px;
+	margin-top:20px;
+	margin-left:100px;
+
+}
+#view-more, #view-more-index{
+	font-family:"Gill Sans MT";
+	font-size:30px;
+	margin-left:320px;
+	margin-top:20px;
+
+}

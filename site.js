@@ -1,0 +1,11 @@
+$(function(){
+	
+	var $viewMore = $('view-')
+
+
+
+
+
+
+
+});
