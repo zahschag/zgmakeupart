@@ -6,8 +6,7 @@
 		<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	 	<meta name="description" content="">
-  	 	<meta name="keywords" content="">
-   		<meta name="author" content="">
+  	 	<meta name="keywords" content="makeup, artist, cosmetics, cosmetic application, makeup artist, party makeup, wedding makeup, party makeup">
 		<title>ZG Make Up Portfolio</title>
 		<link href="css/main.css" rel="stylesheet">
 		<link href="css/index.css" rel="stylesheet">

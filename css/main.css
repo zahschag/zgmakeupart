@@ -14,16 +14,17 @@ nav{
 }
 #logo a{
 	background-image: url('../img/zglogo.png');
+	background-repeat: no-repeat;
 	float:left;
-	width:160px;
-	height:130px;
+	width:170px;
+	height:144px;
 	margin-top:10px;
 	margin-left: 50px;
 	clear:none;
 	z-index: 2;
 }
 #decor{
-	background-image: url('../img/decoration.png');
+	
 	float:right;
 	height:120px;
 	width:430px;
@@ -38,8 +39,7 @@ nav{
 	float:right;
 	font-size:60px;
 	margin-right:150px;
-	margin-bottom:50px;
-	padding-bottom: 50px;
+	margin-bottom:250px;
 	
 }
 /* Navigation Styles */
